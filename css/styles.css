@@ -1,0 +1,218 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #FFF;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+.logo {
+    color: #4D5AE5;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.logo-part {
+    color: #2E2F42;
+}
+
+.nav-link {
+    color: #2E2F42;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #404bbf;
+}
+
+.address {
+    font-style: normal;
+}
+
+.address-link {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.address-link:hover,
+.address-link:focus {
+    color: #404BBF;
+}
+ .sol-section {
+    background-color: #2e2f42;
+ } 
+
+.effective-solutions-title {
+font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 56px;
+
+     
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    background-color: #2e2f42;
+    color: #ffffff;
+}
+
+.order-srvc-btn {
+    font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 16px;
+    
+         
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        cursor: pointer;
+        background-color: #4D5AE5;
+        color: #ffffff;
+}
+
+.order-srvc-btn:hover ,
+.order-srvc-btn:focus {
+    background-color: #404BBF;
+}
+
+.head-title {
+    font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 20px;
+    
+        
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+
+.head-item {
+    font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 16px;
+    
+         
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--slate);
+}
+
+.team-section {
+    background-color: #F4F4FD;
+}
+
+.team-list {
+    background-color: #FFFFFF;
+}
+
+.team-title {
+    font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: center;
+        text-transform: capitalize;
+        color: #2e2f42;
+        
+}
+
+.team-name {
+    font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        text-align: center;
+        text-transform: capitalize;
+        color: #2e2f42;
+        background-color: #FFFFFF;      
+}
+
+.team-item {
+    font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 16px;
+    
+        
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-align: center;
+        background-color: #FFFFFF;
+}
+
+.portfolio {
+    font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 36px;
+        text-transform: capitalize;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+}
+
+.portfolio-title {
+    font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 20px;
+        text-transform: capitalize;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+}
+
+.portfolio-item {
+    font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 16px;
+        text-transform: capitalize;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #434455;
+}
+
+.footer-item {
+    font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 16px;
+    
+        
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #F4F4FD;
+}
+
+.footer {
+    background-color: #2e2f42;
+}
+
+.logo-footer {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:  #4d5ae5;
+}
+.footer-part {
+    color: #f4f4fd;
+}
