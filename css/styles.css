@@ -1,3 +1,29 @@
+/* Стилі для обнулення відступів у елементів */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+/* обнулення базових властивостей списків (ul) */
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+/* Властивості для коректного відображення картинок */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+
+
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
@@ -21,6 +47,9 @@ ol {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    padding-left: 156px;
+    padding-right: 76px;
+    
 }
 
 .logo-part {
@@ -44,6 +73,13 @@ ol {
     font-style: normal;
 }
 
+.address-link-list {
+    display: flex;
+    gap: 40px;
+    justify-content: flex-end;
+    padding-right: 156px;
+
+}
 .address-link {
     color: #434455;
     font-size: 16px;
@@ -55,8 +91,14 @@ ol {
 .address-link:focus {
     color: #404BBF;
 }
+
+.sol-container {
+    width: 1156px;
+    height: 600px;
+}
  .sol-section {
     background-color: #2e2f42;
+    
  } 
 
 .effective-solutions-title {
@@ -90,6 +132,29 @@ font-family: var(--font-family);
     background-color: #404BBF;
 }
 
+/*==============HEADER STYLES===============*/
+
+.header-navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link-list {
+    display: flex;
+    gap: 40px;
+
+}
+ .header-container {
+    width: 1158px;
+    height: 72px;
+    justify-content: center;
+    display: flex;
+ }
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
 .head-title {
     font-family: var(--font-family);
         font-weight: 500;
@@ -112,6 +177,11 @@ font-family: var(--font-family);
         color: var(--slate);
 }
 
+/*============solution ====================*/
+
+
+
+/*========TEAM STYLES==============*/
 .team-section {
     background-color: #F4F4FD;
 }
