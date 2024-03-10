@@ -156,6 +156,10 @@ ol {
     align-items: center;
 }
 
+.nav-link-list {
+    padding: 24px 0;
+}
+
 .link-list {
     display: flex;
     gap: 40px;
@@ -169,12 +173,11 @@ ol {
     justify-content: space-between;
     border-bottom: 1px solid #e7e9fc;
     width: 1158px;
-    color: #e7e9fc;
  }
 .header {
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .head-section {
