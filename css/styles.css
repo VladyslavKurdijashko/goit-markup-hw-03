@@ -183,6 +183,9 @@ ol {
 .head-list {
     display: flex;
     gap: 24px;
+}
+
+.head-title-list {
     width: calc((100% - 72px) / 4);
 }
 
@@ -268,7 +271,8 @@ border-radius: 0px 0px 4px 4px;
         text-align: center;
         text-transform: capitalize;
         color: #2e2f42;
-        background-color: #FFFFFF;      
+        background-color: #FFFFFF;  
+        margin-bottom: 8px;    
 }
 
 .team-name-position {
@@ -285,6 +289,7 @@ border-radius: 0px 0px 4px 4px;
         letter-spacing: 0.02em;
         text-align: center;
         background-color: #FFFFFF;
+        margin-bottom: 8px;
 }
 
     .portfolio-section {
