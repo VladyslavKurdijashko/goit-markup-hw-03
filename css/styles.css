@@ -1,4 +1,4 @@
-/* Стилі для обнулення відступів у елементів */
+
 h1,
 h2,
 h3,
@@ -8,14 +8,13 @@ h6,
 p {
   margin: 0;
 }
-/* обнулення базових властивостей списків (ul) */
+
 ul {
   list-style: none;
   padding-left: 0;
   margin: 0;
 }
 
-/* Властивості для коректного відображення картинок */
 img {
   display: block;
   max-width: 100%;
@@ -54,7 +53,6 @@ ol {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    padding-left: 156px;
     margin-right: 76px
 }
 
@@ -70,6 +68,7 @@ ol {
     line-height: 1.5;
     letter-spacing: 0.02em;
     padding: 24px 0;
+    display: block;
 }
 
 .nav-link:hover,
@@ -78,7 +77,10 @@ ol {
 }
 
 .address {
+    display: flex;
     font-style: normal;
+    align-items: center;
+
 }
 
 .address-link-list {
@@ -86,6 +88,7 @@ ol {
     gap: 40px;
     justify-content: flex-end;
     padding-right: 156px;
+    
 
 }
 .address-link {
@@ -157,30 +160,20 @@ ol {
     align-items: center;
 }
 
-.nav-link-list {
-    padding: 24px 0;
-}
 
 .link-list {
     display: flex;
     gap: 40px;
-    padding: 24px 0 24px;
 
 }
  .header-container {
     display: flex;
-    align-items: flex-start;
     flex-grow: 1;
     justify-content: space-between;
     border-bottom: 1px solid #e7e9fc;
     width: 1158px;
  }
-.header {
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid #e7e9fc;
-    width: 1158px;
-}
+
 
 .head-section {
     padding: 120px 0;
@@ -303,9 +296,8 @@ border-radius: 0px 0px 4px 4px;
 
 .portfolio {
     
-        font-weight: 500;
+        font-weight: 700;
         font-size: 36px;
-        text-transform: capitalize;
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
@@ -333,26 +325,20 @@ border-radius: 0px 0px 4px 4px;
     
     
 .portfolio-title {
-    font-family: var(--font-family);
         font-weight: 500;
         font-size: 20px;
         text-transform: capitalize;
         line-height: 1.2;
         letter-spacing: 0.02em;
-        text-align: center;
         color: #2e2f42;
         margin-bottom: 8px;
 }
 
 .portfolio-item {
-    font-family: var(--font-family);
-        font-weight: 700;
-        font-size: 16px;
-        text-transform: capitalize;
+    
         line-height: 1.5;
         letter-spacing: 0.02em;
-        text-align: center;
-        color: #434455;
+
 }
 
 .footer-item {
