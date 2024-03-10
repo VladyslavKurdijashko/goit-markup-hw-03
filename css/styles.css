@@ -148,9 +148,8 @@ ol {
 }
 
 /*==============HEADER STYLES===============*/
-.header {
-    border-bottom: 1px solid #e7e9fc
-}
+
+
 .header-navigation {
     display: flex;
     justify-content: space-between;
@@ -170,10 +169,12 @@ ol {
     justify-content: space-between;
     border-bottom: 1px solid #e7e9fc;
     width: 1158px;
+    color: #e7e9fc;
  }
 .header {
     display: flex;
     justify-content: space-between;
+    border-bottom: 1px solid;
 }
 
 .head-section {
@@ -182,6 +183,7 @@ ol {
 .head-list {
     display: flex;
     gap: 24px;
+    width: calc((100% - 72px) / 4);
 }
 
 .head-title {
@@ -228,6 +230,7 @@ ol {
 /*========TEAM STYLES==============*/
 .team-section {
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
 
 .team-list {
@@ -328,6 +331,7 @@ border-radius: 0px 0px 4px 4px;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        margin-bottom: 8px;
 }
 
 .portfolio-item {
@@ -371,6 +375,8 @@ border-radius: 0px 0px 4px 4px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color:  #4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .footer-part {
     color: #f4f4fd;
