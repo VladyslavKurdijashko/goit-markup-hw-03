@@ -55,8 +55,7 @@ ol {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     padding-left: 156px;
-    padding-right: 76px;
-    
+    margin-right: 76px
 }
 
 .logo-part {
@@ -149,15 +148,19 @@ ol {
 }
 
 /*==============HEADER STYLES===============*/
-
+.header {
+    border-bottom: 1px solid #e7e9fc
+}
 .header-navigation {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .link-list {
     display: flex;
     gap: 40px;
+    padding: 24px 0 24px;
 
 }
  .header-container {
@@ -165,7 +168,8 @@ ol {
     align-items: flex-start;
     flex-grow: 1;
     justify-content: space-between;
-    border-bottom: 1px solid #e7e9fc
+    border-bottom: 1px solid #e7e9fc;
+    width: 1158px;
  }
 .header {
     display: flex;
@@ -202,6 +206,20 @@ ol {
         letter-spacing: 0.02em;
         color: #434455;
 }
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 
 /*============solution ====================*/
 
